@@ -1,6 +1,26 @@
+body {
+  margin-top: 100px;
+  color: white;
+  font-weight: 600;
+}
+
+.jumbotron{
+background-color: rgba(155, 153, 153, .6);
+text-shadow: 2px 3px black;
+padding: 60px;
+text-align: center;
+}
+
+
+
 .data {
   display: flex;
-  border: 2px solid black;
+  background-color: rgba(155, 153, 153, .6);
+  height: 300px;
+  width: auto;
+  padding: 60px;
+  line-height: 40px;
+  text-shadow: 2px 3px black;
 }
 
 #mars {
