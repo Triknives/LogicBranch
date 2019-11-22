@@ -32,7 +32,7 @@ $(document).ready(function() {
 
     $('#cTemp').text(`Earth is ${eArray[0]-mArray[0]}˚ F warmer than Mars`);
     $('#cPressure').text(`The air pressure on Earth is ${((eArray[1]-mArray[1])/101325).toFixed(4)} Atmospheres greater than Mars`);
-    $('#cWind').text(`The wind speed on Earth is ${eArray[2]-mArray[2]} m/s faster than Mars`);
+    $('#cWind').text(`The wind speed on Earth is ${(eArray[2]-mArray[2]).toFixed(2)} m/s faster than Mars`);
   })();
 
 
